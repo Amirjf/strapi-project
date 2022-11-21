@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }) {
       withGlobalStyles
       withNormalizeCSS
       theme={{
-        /** Put your mantine theme override here */
         colorScheme: 'dark',
       }}
     >

@@ -12,6 +12,7 @@ import { useDisclosure } from '@mantine/hooks';
 import { IconChevronDown } from '@tabler/icons';
 import { links } from './headerData';
 import { Footer } from '../footer/Footer';
+import { SchemeToggle } from '../scheme-toggle/SchemeToggle';
 const useStyles = createStyles((theme) => ({
   header: {
     marginBottom: 0,
@@ -115,6 +116,7 @@ export function Layout({ children }) {
             <Group spacing={5} className={classes.links}>
               {items}
             </Group>
+
             <Burger
               opened={opened}
               onClick={toggle}
